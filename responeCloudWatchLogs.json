@@ -1,0 +1,447 @@
+{
+    "engine": "MYSQL",
+    "instanceID": "rds-mysql-logs",
+    "instanceResourceID": "db-FVULPU5GF6YHWCHB6I4A66QBQU",
+    "timestamp": "2020-07-01T18: 12: 48Z",
+    "version": 1,
+    "uptime": "00: 03: 27",
+    "numVCPUs": 2,
+    "cpuUtilization": {
+        "guest": 0.0,
+        "irq": 0.0,
+        "system": 2.0,
+        "wait": 8.1,
+        "idle": 76.9,
+        "user": 11.3,
+        "total": 23.0,
+        "steal": 1.4,
+        "nice": 0.2
+    },
+    "loadAverageMinute": {
+        "one": 0.21,
+        "five": 0.28,
+        "fifteen": 0.13
+    },
+    "memory": {
+        "writeback": 8,
+        "hugePagesFree": 0,
+        "hugePagesRsvd": 0,
+        "hugePagesSurp": 0,
+        "cached": 478076,
+        "hugePagesSize": 2048,
+        "free": 101988,
+        "hugePagesTotal": 0,
+        "inactive": 387604,
+        "pageTables": 3384,
+        "dirty": 420,
+        "mapped": 55364,
+        "active": 390712,
+        "total": 992324,
+        "slab": 40424,
+        "buffers": 18428
+    },
+    "tasks": {
+        "sleeping": 107,
+        "zombie": 0,
+        "running": 1,
+        "stopped": 0,
+        "total": 108,
+        "blocked": 0
+    },
+    "swap": {
+        "cached": 0,
+        "total": 4095996,
+        "free": 4095996
+    },
+    "network": [
+        {
+            "interface": "eth0",
+            "rx": 104795.22,
+            "tx": 1870.99
+        }
+    ],
+    "diskIO": [
+        {
+            "writeKbPS": 5870.82,
+            "readIOsPS": 10.79,
+            "await": 10.49,
+            "readKbPS": 173.29,
+            "rrqmPS": 0.0,
+            "util": 8.61,
+            "avgQueueLen": 2.78,
+            "tps": 264.76,
+            "readKb": 35945,
+            "device": "rdsdev",
+            "writeKb": 1217784,
+            "avgReqSz": 45.66,
+            "wrqmPS": 0.0,
+            "writeIOsPS": 253.97
+        },
+        {
+            "writeKbPS": 534.77,
+            "readIOsPS": 48.15,
+            "await": 2.37,
+            "readKbPS": 1073.51,
+            "rrqmPS": 0.0,
+            "util": 4.4,
+            "avgQueueLen": 0.17,
+            "tps": 69.98,
+            "readKb": 222679,
+            "device": "filesystem",
+            "writeKb": 110928,
+            "avgReqSz": 45.96,
+            "wrqmPS": 0.0,
+            "writeIOsPS": 21.83
+        }
+    ],
+    "physicalDeviceIO": [
+        {
+            "writeKbPS": 5886.79,
+            "readIOsPS": 20.1,
+            "await": 9.84,
+            "readKbPS": 225.24,
+            "rrqmPS": 0.0,
+            "util": 8.95,
+            "avgQueueLen": 2.72,
+            "tps": 274.87,
+            "readKb": 46721,
+            "device": "nvme1n1",
+            "writeKb": 1221096,
+            "avgReqSz": 44.47,
+            "wrqmPS": 0.0,
+            "writeIOsPS": 254.78
+        }
+    ],
+    "fileSys": [
+        {
+            "used": 672576,
+            "name": "",
+            "usedFiles": 721,
+            "usedFilePercent": 0.06,
+            "maxFiles": 1310720,
+            "mountPoint": "/rdsdbdata",
+            "total": 20496340,
+            "usedPercent": 3.28
+        },
+        {
+            "used": 2185564,
+            "name": "",
+            "usedFiles": 75325,
+            "usedFilePercent": 11.49,
+            "maxFiles": 655360,
+            "mountPoint": "/",
+            "total": 10190104,
+            "usedPercent": 21.45
+        }
+    ],
+    "processList": [
+        {
+            "vss": 745120,
+            "name": "OS processes",
+            "tgid": 0,
+            "parentID": 0,
+            "memoryUsedPc": 3.47,
+            "cpuUsedPc": 0.0,
+            "id": 0,
+            "rss": 34420,
+            "vmlimit": 0
+        },
+        {
+            "vss": 1966256,
+            "name": "RDS processes",
+            "tgid": 0,
+            "parentID": 0,
+            "memoryUsedPc": 27.22,
+            "cpuUsedPc": 0.0,
+            "id": 0,
+            "rss": 270112,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4430,
+            "rss": 82576,
+            "vmlimit": "unlimited"
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4431,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4432,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4433,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4434,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4435,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4436,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4437,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4438,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4439,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4440,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4441,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4442,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4444,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4445,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4446,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4447,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4448,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4449,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4450,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4451,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4452,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4453,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4454,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4470,
+            "rss": 82576,
+            "vmlimit": 0
+        },
+        {
+            "vss": 649240,
+            "name": "mysqld",
+            "tgid": 4430,
+            "parentID": 4426,
+            "memoryUsedPc": 8.32,
+            "cpuUsedPc": 0.0,
+            "id": 4635,
+            "rss": 82576,
+            "vmlimit": 0
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+  "events": [
+    {
+      "timestamp": 1593770315380,
+      "message": "2020-07-03T09: 58: 35.380490Z\t    7 Query\tselect * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode",
+      "ingestionTime": 1593770405131
+    },
+    {
+      "timestamp": 1593770316586,
+      "message": "2020-07-03T09: 58: 36.586765Z\t    7 Query\tselect * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode",
+      "ingestionTime": 1593770320057
+    },
+    {
+      "timestamp": 1593770316586,
+      "message": "2020-07-03T09: 58: 36.586765Z\t    7 Query\tselect * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode",
+      "ingestionTime": 1593770405131
+    {
+        "timestamp": 1593770340053,
+        "message": "2020-07-03T09: 59: 00.053487Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340057,
+        "message": "2020-07-03T09: 59: 00.057352Z\t    2 Query\tSELECT count(*) from mysql.rds_replication_status WHERE master_host IS NOT NULL and master_port IS NOT NULL GROUP BY action_"timestamp",called_by_user,action,mysql_version,master_host,master_port ORDER BY action_"timestamp" LIMIT 1",
+        "ingestionTime": 1593770340083
+      },
+      {
+        "timestamp": 1593770340057,
+        "message": "2020-07-03T09: 59: 00.057352Z\t    2 Query\tSELECT count(*) from mysql.rds_replication_status WHERE master_host IS NOT NULL and master_port IS NOT NULL GROUP BY action_"timestamp",called_by_user,action,mysql_version,master_host,master_port ORDER BY action_"timestamp" LIMIT 1",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340690,
+        "message": "2020-07-03T09: 59: 00.690565Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770345051
+      },
+      {
+        "timestamp": 1593770340690,
+        "message": "2020-07-03T09: 59: 00.690565Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340691,
+        "message": "2020-07-03T09: 59: 00.691143Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770345051
+      },
+      {
+        "timestamp": 1593770340691,
+        "message": "2020-07-03T09: 59: 00.691926Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770345051
+      },
+      {
+        "timestamp": 1593770340691,
+        "message": "2020-07-03T09: 59: 00.691143Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340691,
+        "message": "2020-07-03T09: 59: 00.691926Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340692,
+        "message": "2020-07-03T09:59:00.692540Z\t    2 Query\tSELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2"",
+        "ingestionTime": 1593770345051
+      },
+      {
+        "timestamp": 1593770340692,
+        "message": "2020-07-03T09:59:00.692540Z\t    2 Query\tSELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2"",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340693,
+        "message": "2020-07-03T09: 59: 00.693343Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770345051
+      },
+      {
+        "timestamp": 1593770340693,
+        "message": "2020-07-03T09: 59: 00.693782Z\t    2 Query\tSELECT value FROM mysql.rds_heartbeat2",
+        "ingestionTime": 1593770345051
+      },
+      {
+        "timestamp": 1593770340693,
+        "message": "2020-07-03T09: 59: 00.693343Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340693,
+        "message": "2020-07-03T09: 59: 00.693782Z\t    2 Query\tSELECT value FROM mysql.rds_heartbeat2",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340697,
+        "message": "2020-07-03T09: 59: 00.697179Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770345051
+      },
+      {
+        "timestamp": 1593770340697,
+        "message": "2020-07-03T09: 59: 00.697656Z\t    2 Query\tSELECT @@GLOBAL.read_only",
+        "ingestionTime": 1593770345051
+      },
+      {
+        "timestamp": 1593770340697,
+        "message": "2020-07-03T09: 59: 00.697179Z\t    2 Query\tSELECT 1",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770340697,
+        "message": "2020-07-03T09: 59: 00.697656Z\t    2 Query\tSELECT @@GLOBAL.read_only",
+        "ingestionTime": 1593770405131
+      },
+      {
+        "timestamp": 1593770341096,
+        "message": "2020-07-03T09: 59: 01.096677Z\t    7 Query\tselect * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode",
+        "ingestionTime": 1593770345051
+      },
+    ],
+    "nextForwardToken": "f/35546157900950929116783060266984368331593697123054649346",
+    "nextBackwardToken": "b/35542265676068895892121838357102881314879076833606828032"
+  }

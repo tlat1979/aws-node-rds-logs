@@ -1,0 +1,911 @@
+/Users/taltamir/.nvm/versions/node/v12.13.0/bin/node main.js
+{
+  "events": [
+    {
+      "timestamp": 1593770313959,
+      "message": "# Time: 2020-07-03T09:58:33.959045Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.997402  Lock_time: 0.000109 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "use world;\n" +
+        "SET timestamp=1593770313;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770315312
+    },
+    {
+      "timestamp": 1593770314978,
+      "message": "# Time: 2020-07-03T09:58:34.978451Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.843100  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770314;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770315312
+    },
+    {
+      "timestamp": 1593770316192,
+      "message": "# Time: 2020-07-03T09:58:36.192965Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.812529  Lock_time: 0.000129 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770316;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770320093
+    },
+    {
+      "timestamp": 1593770317503,
+      "message": "# Time: 2020-07-03T09:58:37.503152Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.916442  Lock_time: 0.000132 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770317;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770320093
+    },
+    {
+      "timestamp": 1593770318699,
+      "message": "# Time: 2020-07-03T09:58:38.699706Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.957477  Lock_time: 0.000134 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770318;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770320093
+    },
+    {
+      "timestamp": 1593770319938,
+      "message": "# Time: 2020-07-03T09:58:39.938498Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.938777  Lock_time: 0.000134 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770319;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770320093
+    },
+    {
+      "timestamp": 1593770321203,
+      "message": "# Time: 2020-07-03T09:58:41.203070Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.037359  Lock_time: 0.000132 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770321;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770325091
+    },
+    {
+      "timestamp": 1593770322351,
+      "message": "# Time: 2020-07-03T09:58:42.351261Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.970403  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770322;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770325091
+    },
+    {
+      "timestamp": 1593770323487,
+      "message": "# Time: 2020-07-03T09:58:43.487324Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.834826  Lock_time: 0.000132 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770323;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770325091
+    },
+    {
+      "timestamp": 1593770324854,
+      "message": "# Time: 2020-07-03T09:58:44.854443Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.989611  Lock_time: 0.000127 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770324;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770325091
+    },
+    {
+      "timestamp": 1593770325691,
+      "message": "# Time: 2020-07-03T09:58:45.691100Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000193  Lock_time: 0.000101 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770325;\n" +
+        "SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2";",
+      "ingestionTime": 1593770330089
+    },
+    {
+      "timestamp": 1593770325692,
+      "message": "# Time: 2020-07-03T09:58:45.692071Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000122  Lock_time: 0.000047 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770325;\n" +
+        "SELECT value FROM mysql.rds_heartbeat2;",
+      "ingestionTime": 1593770330089
+    },
+    {
+      "timestamp": 1593770326218,
+      "message": "# Time: 2020-07-03T09:58:46.218394Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.049892  Lock_time: 0.000134 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770326;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770330089
+    },
+    {
+      "timestamp": 1593770327507,
+      "message": "# Time: 2020-07-03T09:58:47.507463Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.006374  Lock_time: 0.000159 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770327;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770330089
+    },
+    {
+      "timestamp": 1593770328708,
+      "message": "# Time: 2020-07-03T09:58:48.708698Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.999789  Lock_time: 0.000128 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770328;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770330089
+    },
+    {
+      "timestamp": 1593770329782,
+      "message": "# Time: 2020-07-03T09:58:49.782094Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.881052  Lock_time: 0.000138 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770329;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770330089
+    },
+    {
+      "timestamp": 1593770331089,
+      "message": "# Time: 2020-07-03T09:58:51.089832Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.940361  Lock_time: 0.000143 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770331;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770335099
+    },
+    {
+      "timestamp": 1593770332326,
+      "message": "# Time: 2020-07-03T09:58:52.326245Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.007338  Lock_time: 0.000135 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770332;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770335099
+    },
+    {
+      "timestamp": 1593770333491,
+      "message": "# Time: 2020-07-03T09:58:53.491206Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.957259  Lock_time: 0.000134 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770333;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770335099
+    },
+    {
+      "timestamp": 1593770334736,
+      "message": "# Time: 2020-07-03T09:58:54.736882Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.944336  Lock_time: 0.000140 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770334;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770335099
+    },
+    {
+      "timestamp": 1593770335995,
+      "message": "# Time: 2020-07-03T09:58:55.995756Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.991294  Lock_time: 0.000205 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770335;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770340125
+    },
+    {
+      "timestamp": 1593770337093,
+      "message": "# Time: 2020-07-03T09:58:57.093898Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.891151  Lock_time: 0.000133 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770337;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770340125
+    },
+    {
+      "timestamp": 1593770338303,
+      "message": "# Time: 2020-07-03T09:58:58.303857Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.842040  Lock_time: 0.000152 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770338;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770340125
+    },
+    {
+      "timestamp": 1593770339704,
+      "message": "# Time: 2020-07-03T09:58:59.704149Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.020789  Lock_time: 0.000126 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770339;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770340125
+    },
+    {
+      "timestamp": 1593770340047,
+      "message": "# Time: 2020-07-03T09:59:00.047369Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.017973  Lock_time: 0.007088 Rows_sent: 0  Rows_examined: 1\n" +
+        "SET timestamp=1593770340;\n" +
+        "SELECT count(*) from mysql.rds_history WHERE action = "disable set master" GROUP BY action_"timestamp",called_by_user,action,mysql_version,master_host,master_port,master_user,master_log_file ,master_log_pos,master_ssl ORDER BY action_"timestamp" LIMIT 1;",
+      "ingestionTime": 1593770340125
+    },
+    {
+      "timestamp": 1593770340067,
+      "message": "# Time: 2020-07-03T09:59:00.067733Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.010643  Lock_time: 0.010468 Rows_sent: 0  Rows_examined: 1\n" +
+        "SET timestamp=1593770340;\n" +
+        "SELECT count(*) from mysql.rds_replication_status WHERE master_host IS NOT NULL and master_port IS NOT NULL GROUP BY action_"timestamp",called_by_user,action,mysql_version,master_host,master_port ORDER BY action_"timestamp" LIMIT 1;",
+      "ingestionTime": 1593770340125
+    },
+    {
+      "timestamp": 1593770340693,
+      "message": "# Time: 2020-07-03T09:59:00.693307Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000815  Lock_time: 0.000119 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770340;\n" +
+        "SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2";",
+      "ingestionTime": 1593770345089
+    },
+    {
+      "timestamp": 1593770340694,
+      "message": "# Time: 2020-07-03T09:59:00.694581Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000819  Lock_time: 0.000050 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770340;\n" +
+        "SELECT value FROM mysql.rds_heartbeat2;",
+      "ingestionTime": 1593770345089
+    },
+    {
+      "timestamp": 1593770340800,
+      "message": "# Time: 2020-07-03T09:59:00.800181Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.921776  Lock_time: 0.000133 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770340;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770345089
+    },
+    {
+      "timestamp": 1593770341924,
+      "message": "# Time: 2020-07-03T09:59:01.924166Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.827544  Lock_time: 0.000132 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770341;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770345089
+    },
+    {
+      "timestamp": 1593770343320,
+      "message": "# Time: 2020-07-03T09:59:03.320642Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.007995  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770343;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770345089
+    },
+    {
+      "timestamp": 1593770344445,
+      "message": "# Time: 2020-07-03T09:59:04.445125Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.912056  Lock_time: 0.000143 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770344;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770345089
+    },
+    {
+      "timestamp": 1593770345714,
+      "message": "# Time: 2020-07-03T09:59:05.714951Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.948577  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770345;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770350084
+    },
+    {
+      "timestamp": 1593770346795,
+      "message": "# Time: 2020-07-03T09:59:06.795618Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.859502  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770346;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770350084
+    },
+    {
+      "timestamp": 1593770347976,
+      "message": "# Time: 2020-07-03T09:59:07.976100Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.867155  Lock_time: 0.000133 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770347;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770350084
+    },
+    {
+      "timestamp": 1593770349366,
+      "message": "# Time: 2020-07-03T09:59:09.366404Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.979306  Lock_time: 0.000130 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770349;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770350084
+    },
+    {
+      "timestamp": 1593770350450,
+      "message": "# Time: 2020-07-03T09:59:10.450483Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.858033  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770350;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770355092
+    },
+    {
+      "timestamp": 1593770351739,
+      "message": "# Time: 2020-07-03T09:59:11.739983Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.967998  Lock_time: 0.000129 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770351;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770355092
+    },
+    {
+      "timestamp": 1593770353003,
+      "message": "# Time: 2020-07-03T09:59:13.003426Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.969767  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770353;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770355092
+    },
+    {
+      "timestamp": 1593770354237,
+      "message": "# Time: 2020-07-03T09:59:14.237708Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.981461  Lock_time: 0.000144 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770354;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770355092
+    },
+    {
+      "timestamp": 1593770355469,
+      "message": "# Time: 2020-07-03T09:59:15.469359Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.026812  Lock_time: 0.000160 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770355;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770360117
+    },
+    {
+      "timestamp": 1593770355691,
+      "message": "# Time: 2020-07-03T09:59:15.691265Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000203  Lock_time: 0.000107 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770355;\n" +
+        "SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2";",
+      "ingestionTime": 1593770360117
+    },
+    {
+      "timestamp": 1593770355692,
+      "message": "# Time: 2020-07-03T09:59:15.692251Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000117  Lock_time: 0.000052 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770355;\n" +
+        "SELECT value FROM mysql.rds_heartbeat2;",
+      "ingestionTime": 1593770360117
+    },
+    {
+      "timestamp": 1593770356631,
+      "message": "# Time: 2020-07-03T09:59:16.631072Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.930367  Lock_time: 0.000107 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770356;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770360117
+    },
+    {
+      "timestamp": 1593770357875,
+      "message": "# Time: 2020-07-03T09:59:17.875048Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.010753  Lock_time: 0.000155 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770357;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770360117
+    },
+    {
+      "timestamp": 1593770358983,
+      "message": "# Time: 2020-07-03T09:59:18.983627Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.901063  Lock_time: 0.000139 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770358;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770360117
+    },
+    {
+      "timestamp": 1593770360243,
+      "message": "# Time: 2020-07-03T09:59:20.243164Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.925658  Lock_time: 0.000138 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770360;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770365086
+    },
+    {
+      "timestamp": 1593770361504,
+      "message": "# Time: 2020-07-03T09:59:21.504140Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.010679  Lock_time: 0.000136 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770361;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770365086
+    },
+    {
+      "timestamp": 1593770362690,
+      "message": "# Time: 2020-07-03T09:59:22.690414Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.009452  Lock_time: 0.000138 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770362;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770365086
+    },
+    {
+      "timestamp": 1593770363856,
+      "message": "# Time: 2020-07-03T09:59:23.856040Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.936636  Lock_time: 0.000134 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770363;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770365086
+    },
+    {
+      "timestamp": 1593770365058,
+      "message": "# Time: 2020-07-03T09:59:25.058065Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.975139  Lock_time: 0.000137 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770365;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770365086
+    },
+    {
+      "timestamp": 1593770366165,
+      "message": "# Time: 2020-07-03T09:59:26.165067Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.899489  Lock_time: 0.000143 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770366;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770370089
+    },
+    {
+      "timestamp": 1593770367496,
+      "message": "# Time: 2020-07-03T09:59:27.496401Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.959402  Lock_time: 0.000155 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770367;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770370089
+    },
+    {
+      "timestamp": 1593770368635,
+      "message": "# Time: 2020-07-03T09:59:28.635594Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.895693  Lock_time: 0.000140 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770368;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770370089
+    },
+    {
+      "timestamp": 1593770369989,
+      "message": "# Time: 2020-07-03T09:59:29.989144Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.053288  Lock_time: 0.000140 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770369;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770370089
+    },
+    {
+      "timestamp": 1593770370689,
+      "message": "# Time: 2020-07-03T09:59:30.689705Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000832  Lock_time: 0.000124 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770370;\n" +
+        "SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2";",
+      "ingestionTime": 1593770375105
+    },
+    {
+      "timestamp": 1593770370690,
+      "message": "# Time: 2020-07-03T09:59:30.690235Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000127  Lock_time: 0.000056 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770370;\n" +
+        "SELECT value FROM mysql.rds_heartbeat2;",
+      "ingestionTime": 1593770375105
+    },
+    {
+      "timestamp": 1593770371130,
+      "message": "# Time: 2020-07-03T09:59:31.130400Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.968144  Lock_time: 0.000138 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770371;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770375105
+    },
+    {
+      "timestamp": 1593770372227,
+      "message": "# Time: 2020-07-03T09:59:32.227228Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.858267  Lock_time: 0.000134 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770372;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770375105
+    },
+    {
+      "timestamp": 1593770373592,
+      "message": "# Time: 2020-07-03T09:59:33.592434Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.050060  Lock_time: 0.000149 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770373;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770375105
+    },
+    {
+      "timestamp": 1593770374624,
+      "message": "# Time: 2020-07-03T09:59:34.624500Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.793061  Lock_time: 0.000155 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770374;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770375105
+    },
+    {
+      "timestamp": 1593770376032,
+      "message": "# Time: 2020-07-03T09:59:36.032914Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.018927  Lock_time: 0.000144 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770376;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770380093
+    },
+    {
+      "timestamp": 1593770377192,
+      "message": "# Time: 2020-07-03T09:59:37.192231Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.957407  Lock_time: 0.000128 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770377;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770380093
+    },
+    {
+      "timestamp": 1593770378314,
+      "message": "# Time: 2020-07-03T09:59:38.314517Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.833183  Lock_time: 0.000149 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770378;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770380093
+    },
+    {
+      "timestamp": 1593770379685,
+      "message": "# Time: 2020-07-03T09:59:39.685416Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.019089  Lock_time: 0.000144 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770379;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770380093
+    },
+    {
+      "timestamp": 1593770380738,
+      "message": "# Time: 2020-07-03T09:59:40.738112Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.875033  Lock_time: 0.000132 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770380;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770385102
+    },
+    {
+      "timestamp": 1593770382114,
+      "message": "# Time: 2020-07-03T09:59:42.114515Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.979681  Lock_time: 0.000129 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770382;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770385102
+    },
+    {
+      "timestamp": 1593770383338,
+      "message": "# Time: 2020-07-03T09:59:43.338944Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.982853  Lock_time: 0.000133 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770383;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770385102
+    },
+    {
+      "timestamp": 1593770384485,
+      "message": "# Time: 2020-07-03T09:59:44.485029Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.963314  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770384;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770385102
+    },
+    {
+      "timestamp": 1593770385690,
+      "message": "# Time: 2020-07-03T09:59:45.690853Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000186  Lock_time: 0.000096 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770385;\n" +
+        "SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2";",
+      "ingestionTime": 1593770390094
+    },
+    {
+      "timestamp": 1593770385691,
+      "message": "# Time: 2020-07-03T09:59:45.691798Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000110  Lock_time: 0.000045 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770385;\n" +
+        "SELECT value FROM mysql.rds_heartbeat2;",
+      "ingestionTime": 1593770390094
+    },
+    {
+      "timestamp": 1593770385726,
+      "message": "# Time: 2020-07-03T09:59:45.726049Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.933893  Lock_time: 0.000132 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770385;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770390094
+    },
+    {
+      "timestamp": 1593770386899,
+      "message": "# Time: 2020-07-03T09:59:46.899182Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.925896  Lock_time: 0.000155 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770386;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770390094
+    },
+    {
+      "timestamp": 1593770388059,
+      "message": "# Time: 2020-07-03T09:59:48.059597Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.898850  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770388;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770390094
+    },
+    {
+      "timestamp": 1593770389395,
+      "message": "# Time: 2020-07-03T09:59:49.395485Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.956605  Lock_time: 0.000133 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770389;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770390094
+    },
+    {
+      "timestamp": 1593770390586,
+      "message": "# Time: 2020-07-03T09:59:50.586868Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.942921  Lock_time: 0.000131 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770390;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770395097
+    },
+    {
+      "timestamp": 1593770391763,
+      "message": "# Time: 2020-07-03T09:59:51.763020Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.921799  Lock_time: 0.000127 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770391;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770395097
+    },
+    {
+      "timestamp": 1593770392999,
+      "message": "# Time: 2020-07-03T09:59:52.999135Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.900075  Lock_time: 0.000154 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770392;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770395097
+    },
+    {
+      "timestamp": 1593770394268,
+      "message": "# Time: 2020-07-03T09:59:54.268637Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.971995  Lock_time: 0.000128 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770394;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770395097
+    },
+    {
+      "timestamp": 1593770395533,
+      "message": "# Time: 2020-07-03T09:59:55.533748Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.970523  Lock_time: 0.000126 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770395;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770400479
+    },
+    {
+      "timestamp": 1593770396766,
+      "message": "# Time: 2020-07-03T09:59:56.766220Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.972558  Lock_time: 0.000145 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770396;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770400479
+    },
+    {
+      "timestamp": 1593770398022,
+      "message": "# Time: 2020-07-03T09:59:58.022651Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 1.044127  Lock_time: 0.000133 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770398;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770400479
+    },
+    {
+      "timestamp": 1593770399176,
+      "message": "# Time: 2020-07-03T09:59:59.176049Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.975862  Lock_time: 0.000137 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770399;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770400479
+    },
+    {
+      "timestamp": 1593770400200,
+      "message": "# Time: 2020-07-03T10:00:00.200546Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.003353  Lock_time: 0.000137 Rows_sent: 0  Rows_examined: 1\n" +
+        "SET timestamp=1593770400;\n" +
+        "SELECT count(*) from mysql.rds_history WHERE action = "disable set master" GROUP BY action_"timestamp",called_by_user,action,mysql_version,master_host,master_port,master_user,master_log_file ,master_log_pos,master_ssl ORDER BY action_"timestamp" LIMIT 1;",
+      "ingestionTime": 1593770400479
+    },
+    {
+      "timestamp": 1593770400224,
+      "message": "# Time: 2020-07-03T10:00:00.224452Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.017332  Lock_time: 0.000114 Rows_sent: 0  Rows_examined: 1\n" +
+        "SET timestamp=1593770400;\n" +
+        "SELECT count(*) from mysql.rds_replication_status WHERE master_host IS NOT NULL and master_port IS NOT NULL GROUP BY action_"timestamp",called_by_user,action,mysql_version,master_host,master_port ORDER BY action_"timestamp" LIMIT 1;",
+      "ingestionTime": 1593770400479
+    },
+    {
+      "timestamp": 1593770400373,
+      "message": "# Time: 2020-07-03T10:00:00.373037Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.986156  Lock_time: 0.000133 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "use world;\n" +
+        "SET timestamp=1593770400;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770400479
+    },
+    {
+      "timestamp": 1593770400693,
+      "message": "# Time: 2020-07-03T10:00:00.693587Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000866  Lock_time: 0.000116 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770400;\n" +
+        "SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2";",
+      "ingestionTime": 1593770405204
+    },
+    {
+      "timestamp": 1593770400693,
+      "message": "# Time: 2020-07-03T10:00:00.693587Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000866  Lock_time: 0.000116 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770400;\n" +
+        "SELECT count(*) from information_schema.TABLES WHERE TABLE_SCHEMA = "mysql" AND TABLE_NAME = "rds_heartbeat2";",
+      "ingestionTime": 1593939615376
+    },
+    {
+      "timestamp": 1593770400694,
+      "message": "# Time: 2020-07-03T10:00:00.694451Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000405  Lock_time: 0.000052 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770400;\n" +
+        "SELECT value FROM mysql.rds_heartbeat2;",
+      "ingestionTime": 1593770405204
+    },
+    {
+      "timestamp": 1593770400694,
+      "message": "# Time: 2020-07-03T10:00:00.694451Z\n" +
+        "# User@Host: rdsadmin[rdsadmin] @ localhost [127.0.0.1]  Id:     2\n" +
+        "# Query_time: 0.000405  Lock_time: 0.000052 Rows_sent: 1  Rows_examined: 1\n" +
+        "SET timestamp=1593770400;\n" +
+        "SELECT value FROM mysql.rds_heartbeat2;",
+      "ingestionTime": 1593939615376
+    },
+    {
+      "timestamp": 1593770401441,
+      "message": "# Time: 2020-07-03T10:00:01.441750Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.863835  Lock_time: 0.000129 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "use world;\n" +
+        "SET timestamp=1593770401;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770405204
+    },
+    {
+      "timestamp": 1593770401441,
+      "message": "# Time: 2020-07-03T10:00:01.441750Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.863835  Lock_time: 0.000129 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "use world;\n" +
+        "SET timestamp=1593770401;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593939615376
+    },
+    {
+      "timestamp": 1593770402832,
+      "message": "# Time: 2020-07-03T10:00:02.832265Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.987378  Lock_time: 0.000141 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770402;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770405204
+    },
+    {
+      "timestamp": 1593770402832,
+      "message": "# Time: 2020-07-03T10:00:02.832265Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.987378  Lock_time: 0.000141 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770402;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593939615376
+    },
+    {
+      "timestamp": 1593770404041,
+      "message": "# Time: 2020-07-03T10:00:04.041426Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.962245  Lock_time: 0.000134 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770404;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770405204
+    },
+    {
+      "timestamp": 1593770404041,
+      "message": "# Time: 2020-07-03T10:00:04.041426Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.962245  Lock_time: 0.000134 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770404;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593939615376
+    },
+    {
+      "timestamp": 1593770405171,
+      "message": "# Time: 2020-07-03T10:00:05.171036Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.911156  Lock_time: 0.000130 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770405;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770405204
+    },
+    {
+      "timestamp": 1593770405171,
+      "message": "# Time: 2020-07-03T10:00:05.171036Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.911156  Lock_time: 0.000130 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770405;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593939615376
+    },
+    {
+      "timestamp": 1593770406398,
+      "message": "# Time: 2020-07-03T10:00:06.398706Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.859145  Lock_time: 0.000160 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770406;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593770410082
+    },
+    {
+      "timestamp": 1593770406398,
+      "message": "# Time: 2020-07-03T10:00:06.398706Z\n" +
+        "# User@Host: admin[admin] @  [172.31.34.77]  Id:     7\n" +
+        "# Query_time: 0.859145  Lock_time: 0.000160 Rows_sent: 147455  Rows_examined: 175130\n" +
+        "SET timestamp=1593770406;\n" +
+        "select * from countrylanguage, city, country where countrylanguage.CountryCode = country.Code AND countrylanguage.CountryCode = city.CountryCode;",
+      "ingestionTime": 1593939615376
+    },
+  ],
+  "nextForwardToken": "f/35546085312069909390001793826934466325115847450330202455",
+  "nextBackwardToken": "b/35542265676581813031688042689527766828915323062639984640"
+}
