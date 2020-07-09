@@ -1,33 +1,21 @@
-var request = {
-    "StartTime": 1518867432,
-    "EndTime": 1518868032,
-    "MetricDataQueries": [
-        {
-            "Id": "m1",
-            "MetricStat": {
-                "Metric": {
-                    "Namespace": "AWS/EC2",
-                    "MetricName": "NetworkOut",
-                    "Dimensions": [
-                        {
-                            "Name": "InstanceId",
-                            "Value": "i-066f41e0b3b4e14fb"
-                        }
-                    ]
-                },
-                "Period": 300,
-                "Stat": "Average",
-                "Unit": "Bytes"
-            }
-        }
-    ]
-};
+const AWS = require("aws-sdk");
+const uuid = require('uuid');
+AWS.config.update({ region: 'eu-west-1' });
+const cloudWatch = new AWS.CloudWatchLogs({ apiVersion: '2014-03-28' });
+const cw = new AWS.CloudWatch({ apiVersion: '2010-08-01' });
+const rds = new AWS.RDS();
+const ec2 = new AWS.EC2();
 
-var main = _ => {
+const SQL_GENERAL_LOG = '/aws/rds/instance/rds-mysql-logs/general';
+const SQL_SLOW_QUERY_LOG = '/aws/rds/instance/rds-mysql-logs/slowquery';
+const SQL_ERROR_LOG = '/aws/rds/instance/rds-mysql-logs/error';
+const RDS_METRICS_LOG = 'RDSOSMetrics';
+const RDS_METRICS_STREAM_NAME = 'db-FVULPU5GF6YHWCHB6I4A66QBQU';
+const RDS_LOGS_STREAM_NAME = 'rds-mysql-logs';
 
-    var AWS = require("aws-sdk");
-    var uuid = require('uuid');
-    var cw = new AWS.CloudWatch({ apiVersion: '2010-08-01' });
+// Not Really Working
+var listCloudWatchMetrics = _ => {
+
     var params = {
         Dimensions: [
             {
@@ -49,11 +37,6 @@ var main = _ => {
 }
 
 var describeRDSInstances = _ => {
-    var AWS = require("aws-sdk");
-    var uuid = require('uuid');
-    AWS.config.update({ region: 'eu-west-1' });
-    var rds = new AWS.RDS();
-
     var params = {
         DBInstanceIdentifier: 'rds-mysql-logs',
     };
@@ -64,11 +47,6 @@ var describeRDSInstances = _ => {
 }
 
 function describeEC2Instances() {
-
-    var AWS = require("aws-sdk");
-    var uuid = require('uuid');
-    AWS.config.update({ region: 'eu-west-1' });
-    var ec2 = new AWS.EC2();
 
     ec2.describeInstances({}, function (err, data) {
         if (err) {
@@ -95,10 +73,7 @@ function describeEC2Instances() {
     });
 }
 
-var getCloudWatchLogs = (logGroupName, logStreamName) => {
-    var AWS = require("aws-sdk");
-    AWS.config.update({ region: 'eu-west-1' });
-    var cloudwatchlogs = new AWS.CloudWatchLogs({ apiVersion: '2014-03-28' });
+var getCloudWatchLogs = (logGroupName, logStreamName = RDS_LOGS_STREAM_NAME) => {
 
     var params = {
         logGroupName: logGroupName, /* required */
@@ -109,19 +84,20 @@ var getCloudWatchLogs = (logGroupName, logStreamName) => {
         startFromHead: true,
 
     };
-    cloudwatchlogs.getLogEvents(params, function (err, data) {
+    cloudWatch.getLogEvents(params, function (err, data) {
         if (err) console.log(err, err.stack); // an error occurred
         else console.log(data);           // successful response
     });
 }
 
-//main();
+//listCloudWatchMetrics();
 
-//printStatuses();
+//describeEC2Instances();
 
-//escribeRDSInstances()
+//describeRDSInstances()
 
-//getCloudWatchLogs('RDSOSMetrics', 'db-FVULPU5GF6YHWCHB6I4A66QBQU');
-//getCloudWatchLogs('/aws/rds/instance/rds-mysql-logs/general', 'rds-mysql-logs')
-getCloudWatchLogs('/aws/rds/instance/rds-mysql-logs/slowquery', 'rds-mysql-logs')
+//getCloudWatchLogs(RDS_METRICS_LOG, RDS_METRICS_STREAM_NAME);
+//getCloudWatchLogs(SQL_GENERAL_LOG)
+getCloudWatchLogs(SQL_SLOW_QUERY_LOG);
+//getCloudWatchLogs(SQL_ERROR_LOG);
 

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.712.0",
+    "rds-slow-log-parse": "^0.2.3",
     "uuid": "^8.2.0"
   }
 }
